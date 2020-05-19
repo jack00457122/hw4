@@ -13,6 +13,14 @@
 		59F1B3E024726FD700158A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F1B3DF24726FD700158A76 /* Assets.xcassets */; };
 		59F1B3E324726FD700158A76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F1B3E224726FD700158A76 /* Preview Assets.xcassets */; };
 		59F1B3E624726FD700158A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F1B3E424726FD700158A76 /* LaunchScreen.storyboard */; };
+		59F1B3EE24727DB700158A76 /* Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3ED24727DB700158A76 /* Death.swift */; };
+		59F1B3F024727E1200158A76 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3EF24727E1200158A76 /* Start.swift */; };
+		59F1B3F224727E6400158A76 /* Deathdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3F124727E6400158A76 /* Deathdata.swift */; };
+		59F1B3F424727F6000158A76 /* DeathEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3F324727F6000158A76 /* DeathEditor.swift */; };
+		59F1B3F6247282EA00158A76 /* DeathRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3F5247282EA00158A76 /* DeathRow.swift */; };
+		59F1B3F82472839B00158A76 /* DeathList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3F72472839B00158A76 /* DeathList.swift */; };
+		59F1B3FA247284AC00158A76 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3F9247284AC00158A76 /* PieChart.swift */; };
+		59F1B3FC247284DE00158A76 /* AnalysisGrapic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1B3FB247284DE00158A76 /* AnalysisGrapic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		59F1B3E224726FD700158A76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		59F1B3E524726FD700158A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59F1B3E724726FD700158A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F1B3ED24727DB700158A76 /* Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Death.swift; sourceTree = "<group>"; };
+		59F1B3EF24727E1200158A76 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		59F1B3F124727E6400158A76 /* Deathdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deathdata.swift; sourceTree = "<group>"; };
+		59F1B3F324727F6000158A76 /* DeathEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathEditor.swift; sourceTree = "<group>"; };
+		59F1B3F5247282EA00158A76 /* DeathRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathRow.swift; sourceTree = "<group>"; };
+		59F1B3F72472839B00158A76 /* DeathList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathList.swift; sourceTree = "<group>"; };
+		59F1B3F9247284AC00158A76 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		59F1B3FB247284DE00158A76 /* AnalysisGrapic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisGrapic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 				59F1B3D924726FD400158A76 /* AppDelegate.swift */,
 				59F1B3DB24726FD400158A76 /* SceneDelegate.swift */,
 				59F1B3DD24726FD400158A76 /* ContentView.swift */,
+				59F1B3ED24727DB700158A76 /* Death.swift */,
+				59F1B3EF24727E1200158A76 /* Start.swift */,
+				59F1B3F324727F6000158A76 /* DeathEditor.swift */,
+				59F1B3F5247282EA00158A76 /* DeathRow.swift */,
+				59F1B3F72472839B00158A76 /* DeathList.swift */,
+				59F1B3F124727E6400158A76 /* Deathdata.swift */,
+				59F1B3F9247284AC00158A76 /* PieChart.swift */,
+				59F1B3FB247284DE00158A76 /* AnalysisGrapic.swift */,
 				59F1B3DF24726FD700158A76 /* Assets.xcassets */,
 				59F1B3E424726FD700158A76 /* LaunchScreen.storyboard */,
 				59F1B3E724726FD700158A76 /* Info.plist */,
@@ -146,9 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F1B3EE24727DB700158A76 /* Death.swift in Sources */,
 				59F1B3DA24726FD400158A76 /* AppDelegate.swift in Sources */,
+				59F1B3F024727E1200158A76 /* Start.swift in Sources */,
 				59F1B3DC24726FD400158A76 /* SceneDelegate.swift in Sources */,
+				59F1B3F224727E6400158A76 /* Deathdata.swift in Sources */,
+				59F1B3F424727F6000158A76 /* DeathEditor.swift in Sources */,
 				59F1B3DE24726FD400158A76 /* ContentView.swift in Sources */,
+				59F1B3FC247284DE00158A76 /* AnalysisGrapic.swift in Sources */,
+				59F1B3F6247282EA00158A76 /* DeathRow.swift in Sources */,
+				59F1B3F82472839B00158A76 /* DeathList.swift in Sources */,
+				59F1B3FA247284AC00158A76 /* PieChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
